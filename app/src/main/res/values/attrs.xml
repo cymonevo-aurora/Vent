@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="themeTopic" format="reference"/>
+    <attr name="themeLight" format="reference"/>
+    <attr name="themeAccent" format="reference"/>
+    <attr name="themePrimary" format="reference"/>
+    <attr name="themeSemi" format="reference"/>
+    <attr name="themeDark" format="reference"/>
+</resources>

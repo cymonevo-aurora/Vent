@@ -1,11 +1,38 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <!--Master Light Theme-->
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--Master Dark Theme-->
+    <style name="AppThemeDark" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeDefault" parent="AppThemeLight">
+        <item name="themeLight">@color/orangeLight</item>
+        <item name="themeAccent">@color/orangeAccent</item>
+        <item name="themePrimary">@color/orangePrimary</item>
+        <item name="themeSemi">@color/orangeSemi</item>
+        <item name="themeDark">@color/orangeDark</item>
+        <item name="android:statusBarColor">@color/orangeDark</item>
+    </style>
+
+    <style name="ThemeLove" parent="AppThemeLight">
+        <item name="themeLight">@color/redLight</item>
+        <item name="themeAccent">@color/redAccent</item>
+        <item name="themePrimary">@color/redPrimary</item>
+        <item name="themeSemi">@color/redSemi</item>
+        <item name="themeDark">@color/redDark</item>
+        <item name="android:statusBarColor">@color/redDark</item>
+    </style>
+
+    <style name="DrawerHeader">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/md_font</item>
+    </style>
 </resources>

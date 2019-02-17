@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!--Title bar, Drawer hover text color-->
+    <color name="colorPrimary">@color/orangeSemi</color>
+    <!--Status Bar-->
+    <color name="colorPrimaryDark">@color/orangeDark</color>
+    <!--Highlighting-->
+    <color name="colorAccent">@color/orangeAccent</color>
+
+    <string-array name="category_color">
+        <item>#ff8f00</item>
+        <item>#c62828</item>
+    </string-array>
+
+    <!--Theme Color-->
+    <color name="redLight">#ffebee</color>
+    <color name="redAccent">#ff8a80</color>
+    <color name="redPrimary">#f44336</color>
+    <color name="redSemi">#c62828</color>
+    <color name="redDark">#b71c1c</color>
+
+    <color name="purpleLight">#f3e5f5</color>
+    <color name="purpleAccent">#ea80fc</color>
+    <color name="purplePrimary">#9c27b0</color>
+    <color name="purpleSemi">#6a1b9a</color>
+    <color name="purpleDark">#4a148c</color>
+
+    <color name="indigoLight">#e8eaf6</color>
+    <color name="indigoAccent">#8c9eff</color>
+    <color name="indigoPrimary">#3f51b5</color>
+    <color name="indigoSemi">#283593</color>
+    <color name="indigoDark">#1a237e</color>
+
+    <color name="blueLight">#e3f2fd</color>
+    <color name="blueAccent">#82b1ff</color>
+    <color name="bluePrimary">#2196f3</color>
+    <color name="blueSemi">#1565c0</color>
+    <color name="blueDark">#0d47a1</color>
+
+    <color name="orangeLight">#fff8e1</color>
+    <color name="orangeAccent">#ffe57f</color>
+    <color name="orangePrimary">#ffc107</color>
+    <color name="orangeSemi">#ff8f00</color>
+    <color name="orangeDark">#ff6f00</color>
+
+    <color name="tealLight">#e0f2f1</color>
+    <color name="tealAccent">#a7ffeb</color>
+    <color name="tealPrimary">#009688</color>
+    <color name="tealSemi">#00695c</color>
+    <color name="tealDark">#004d40</color>
+
+    <color name="grayLight">#eceff1</color>
+    <color name="grayAccent">#cfd8dc</color>
+    <color name="grayPrimary">#607d8b</color>
+    <color name="graySemi">#37474f</color>
+    <color name="grayDark">#263238</color>
+
+    <color name="brownLight">#efebe9</color>
+    <color name="brownAccent">#d7ccc8</color>
+    <color name="brownPrimary">#795548</color>
+    <color name="brownSemi">#4e342e</color>
+    <color name="brownDark">#3e2723</color>
 </resources>

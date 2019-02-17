@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Vent</string>
+
+    <!--Drawer-->
+    <string name="drawer_header">Menu</string>
+
+    <!--Theme Name-->
+    <string-array name="category_topic">
+        <item>Any</item>
+        <item>Love</item>
+    </string-array>
+
+    <string name="topic_indigo">Family</string>
+    <string name="topic_blue">Friendship</string>
+    <string name="topic_teal">Places &amp; Hobbies</string>
+    <string name="topic_brown">Academy</string>
+    <string name="topic_purple">Random</string>
+
+    <!--Category-->
+    <string name="category_chooser">Choose category</string>
+    <string-array name="category_desc">
+        <item>about anything you want!</item>
+        <item>about relationship and love stories</item>
+    </string-array>
+
+    <string name="category_desc_indigo">about family and siblings</string>
+    <string name="category_desc_blue">about friend and belongings</string>
+    <string name="category_desc_teal">about places and hobbies</string>
+    <string name="category_desc_brown">about academy and self development</string>
+    <string name="category_desc_purple">about random things and others!</string>
+
+    <!--Menu-->
+    <string name="menu_explore">Explore</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_leave_chat">Leave this room</string>
 </resources>
